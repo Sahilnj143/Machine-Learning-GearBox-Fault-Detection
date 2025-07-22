@@ -1,4 +1,4 @@
-# 🚀 Welcome to Your Virtual Internship Project
+# 🚀 Welcome to My Virtual Internship Project
 # Machine Learning GearBox Fault Detection
 ---
 
