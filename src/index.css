@@ -8,73 +8,77 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Industrial Dark Theme */
-    --background: 222 47% 7%;
-    --foreground: 210 40% 95%;
+    /* Enhanced Industrial Theme with Neon Accents */
+    --background: 220 50% 6%;
+    --foreground: 210 40% 98%;
 
-    --card: 222 47% 9%;
-    --card-foreground: 210 40% 95%;
+    --card: 220 50% 8%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 222 47% 9%;
-    --popover-foreground: 210 40% 95%;
+    --popover: 220 50% 8%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Electric Blue Primary */
-    --primary: 200 100% 60%;
-    --primary-foreground: 222 47% 7%;
+    /* Cyberpunk Blue Primary */
+    --primary: 190 100% 65%;
+    --primary-foreground: 220 50% 6%;
+    --primary-glow: 190 100% 85%;
 
-    --secondary: 222 47% 15%;
-    --secondary-foreground: 210 40% 90%;
+    --secondary: 220 50% 18%;
+    --secondary-foreground: 210 40% 95%;
 
-    --muted: 222 47% 12%;
-    --muted-foreground: 215 15% 65%;
+    --muted: 220 50% 12%;
+    --muted-foreground: 215 15% 70%;
 
-    --accent: 200 100% 60%;
-    --accent-foreground: 222 47% 7%;
+    --accent: 285 100% 70%;
+    --accent-foreground: 220 50% 6%;
 
-    /* Warning Orange for Alerts */
-    --destructive: 25 95% 55%;
+    /* Enhanced Status Colors */
+    --destructive: 0 100% 65%;
     --destructive-foreground: 210 40% 98%;
+    
+    --warning: 35 100% 60%;
+    --warning-foreground: 220 50% 6%;
 
-    /* Success Green for Healthy Status */
-    --success: 142 76% 45%;
+    --success: 155 75% 50%;
     --success-foreground: 210 40% 98%;
 
-    --border: 222 47% 20%;
-    --input: 222 47% 15%;
-    --ring: 200 100% 60%;
+    --info: 210 100% 65%;
+    --info-foreground: 220 50% 6%;
 
-    /* Industrial Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(200 100% 60%), hsl(210 100% 70%));
-    --gradient-warning: linear-gradient(135deg, hsl(25 95% 55%), hsl(35 95% 65%));
-    --gradient-success: linear-gradient(135deg, hsl(142 76% 45%), hsl(152 76% 55%));
-    --gradient-background: linear-gradient(180deg, hsl(222 47% 7%), hsl(222 47% 5%));
+    --border: 220 50% 22%;
+    --input: 220 50% 15%;
+    --ring: 190 100% 65%;
 
-    /* Industrial Shadows */
-    --shadow-glow: 0 0 20px hsl(200 100% 60% / 0.3);
-    --shadow-warning: 0 0 20px hsl(25 95% 55% / 0.3);
-    --shadow-success: 0 0 20px hsl(142 76% 45% / 0.3);
-    --shadow-card: 0 8px 32px hsl(222 47% 3% / 0.5);
+    /* Advanced Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(190 100% 65%), hsl(210 100% 75%));
+    --gradient-secondary: linear-gradient(135deg, hsl(285 100% 70%), hsl(250 100% 75%));
+    --gradient-warning: linear-gradient(135deg, hsl(35 100% 60%), hsl(45 100% 70%));
+    --gradient-success: linear-gradient(135deg, hsl(155 75% 50%), hsl(175 75% 60%));
+    --gradient-background: linear-gradient(135deg, hsl(220 50% 6%), hsl(240 50% 8%));
+    --gradient-card: linear-gradient(145deg, hsl(220 50% 8%), hsl(220 50% 12%));
 
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Futuristic Shadows & Glows */
+    --shadow-glow: 0 0 30px hsl(190 100% 65% / 0.4);
+    --shadow-accent: 0 0 25px hsl(285 100% 70% / 0.35);
+    --shadow-warning: 0 0 25px hsl(35 100% 60% / 0.3);
+    --shadow-success: 0 0 25px hsl(155 75% 50% / 0.3);
+    --shadow-card: 0 12px 40px hsl(220 50% 3% / 0.6);
+    --shadow-elegant: 0 8px 32px hsl(190 100% 65% / 0.15);
+
+    /* Enhanced Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     --pulse-duration: 2s;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
