@@ -162,7 +162,9 @@ npm test             # Run test suite
 ```
 
 ---
-
+# Email : sj747251@gmail.com
+# Contact : 9021077932
+---
 ## 🚀 Ready to Start Building?
 
 Choose your preferred development method above and start creating amazing applications! Remember, the best way to learn is by building, so don't be afraid to experiment and make mistakes.
